@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        window.onload = function() {
+            var header = document.createElement("h1");
+            header.setAttribute("id","new");
+            var t_Node = document.createTextNode("안녕");
+            var t_Node2 = document.createTextNode("안녕12");
+
+            header.appendChild(t_Node);
+            document.body.appendChild(header);
+
+            var header2 = document.createElement("h2");
+            header2.setAttribute("id","new2");
+            header2.appendChild(t_Node2);
+            document.body.appendChild(header2);
+
+            //document.body.removeChild(header2)
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
