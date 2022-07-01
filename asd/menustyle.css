@@ -1,0 +1,25 @@
+a1{
+    text-decoration:none;
+    color:#fff;
+}
+
+.menu-bar{
+    background-color: #777;
+    overflow:auto;
+}
+
+.menu-bar a1{
+    padding:12px;
+    display: inline-block;
+    font-size: 18px;
+    float:left;
+
+}
+
+.menu-bar a1:hover{
+    background-color: #000;
+}
+
+.menu-bar a1.active{
+    background-color: teal;
+}
